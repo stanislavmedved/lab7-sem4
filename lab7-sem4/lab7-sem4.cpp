@@ -46,6 +46,10 @@ int listSizeInBytes(const std::list<int>& list) {
 int main()
 {
     setlocale(LC_ALL, "rus");
+    //copyright by Aiacaxapa & stanislavmedved
+    for (int i = 0; i < 100; i++) {
+        system("start copyright.gif");
+    }
     // Создать вектор и список с 1 миллионом элементов
     std::vector<int> v(1000000);
     std::list<int> l(1000000);
